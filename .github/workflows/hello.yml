@@ -13,7 +13,7 @@ jobs:
 # 1st Job(give indentation)
   say-hello:
     # Creates on Ephermal Continar with Ubantu running. Ephermal Continar:- It will run this job in continar for a short time then automatically delete it
-    runs-on: ubantu-lastest
+    runs-on: ubuntu-latest
     #that ephermal container will have steps to execute, hence name those steps and use run: run have the command.
     steps:
       - name: say hello to everyone
